@@ -1,0 +1,12 @@
+Event handling :
+<Entry Placeholder="" x:Name="identifier" />
+<Button Clicked="functionName" > </Button>
+
+/* code is written in cs files (C# language):*/
+public partial class className: ContentPanel /*(the page content Type) */
+public className(){
+    InitializeComponent();
+}
+public void functionName(Object sender/* the buuton which had  send the event Clicked*/,EventArgs e){
+nameof.Text="";
+}

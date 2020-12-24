@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP1CrossPlatform.Tabbed">
+    <TabbedPage.Children>
+        <ContentPage Title="Page 1" BackgroundColor="DarkGreen" >
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                    <StackLayout HorizontalOptions="Start" Orientation="Horizontal">
+                        <Button x:Name="goBack" Text="Back" TextColor="White" />
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="End" Orientation="Horizontal">
+                        <Label Text="Salut Amine !" TextColor="White" />
+                        <Button x:Name="logout" Text="logout" TextColor="White" />
+                    </StackLayout>
+                </StackLayout>
+                <Label Text="Text1" TextColor="Crimson" />
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage Title="Page 2" BackgroundColor="DarkCyan">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                    <StackLayout HorizontalOptions="Start" Orientation="Horizontal">
+                        <Button x:Name="goBack2" Text="Back" TextColor="White" />
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="End" Orientation="Horizontal">
+                        <Label Text="Salut Amine !" TextColor="White" />
+                        <Button x:Name="logout2" Text="logout" TextColor="White" />
+                    </StackLayout>
+                </StackLayout>
+                <Label Text="Text2" TextColor="Crimson" />
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage Title="Page 3" BackgroundColor="DarkGoldenrod">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                    <StackLayout HorizontalOptions="Start" Orientation="Horizontal">
+                        <Button x:Name="goBack3" Text="Back" TextColor="White" />
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="End" Orientation="Horizontal">
+                        <Label Text="Salut Amine !" TextColor="White" />
+                        <Button x:Name="logout3" Text="logout" TextColor="White" />
+                    </StackLayout>
+                </StackLayout>
+                <Label Text="Text3" TextColor="Crimson" />
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage Title="Page 4" BackgroundColor="DarkKhaki">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                    <StackLayout HorizontalOptions="Start" Orientation="Horizontal">
+                        <Button x:Name="goBack4" Text="Back" TextColor="White" />
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="End" Orientation="Horizontal">
+                        <Label Text="Salut Amine !" TextColor="White" />
+                        <Button x:Name="logout4" Text="logout" TextColor="White" />
+                    </StackLayout>
+                </StackLayout>
+                <Label Text="Text4" TextColor="Crimson"/>
+            </StackLayout>
+        </ContentPage>
+    
+    </TabbedPage.Children>
+</TabbedPage>

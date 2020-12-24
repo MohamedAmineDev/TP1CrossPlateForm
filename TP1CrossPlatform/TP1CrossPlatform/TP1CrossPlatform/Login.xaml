@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP1CrossPlatform.Login"
+             Padding="10"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+            <Label Text="" x:Name="message" TextColor="Red"  />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Username: " TextColor="White" />
+                <Entry IsPassword="False" Placeholder="Username .." x:Name="username" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Password: " TextColor="White" />
+                <Entry IsPassword="True" Placeholder="Password .." x:Name="password" HorizontalOptions="FillAndExpand" TextColor="White" BackgroundColor="Gray" />
+            </StackLayout>
+            <Button Text="Sign in" x:Name="btnLogin" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

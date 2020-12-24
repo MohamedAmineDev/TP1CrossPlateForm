@@ -1,0 +1,16 @@
+AbsolutLaout has two proprietes:
+Position:
+X:
+Y:
+Size:
+Width:
+Height:
+
+Flags:
+Proportional:
+Absolute
+
+
+syntaxt:
+AbsoluteLayout.LayoutFlags="All"
+AbsoluteLayout.LayoutBounds="x,y,width,height"

@@ -1,0 +1,19 @@
+<TabbedPage>
+
+<TabbedPage.Children>
+
+<ContentPage Title="">
+</ContentPage>
+
+<ContentPage Title="">
+</ContentPage>
+
+<ContentPage Title="">
+</ContentPage>
+
+</TabbedPage.Children>
+
+</TabbedPage>
+
+in the cs file we ddeclare it like this:
+public patial class className : TabbedPage

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP1CrossPlatform.Menu" BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" >
+            <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                <Label Text="Salut Amine !" TextColor="White"  />
+                <Button Text="logout" BackgroundColor="DarkBlue" x:Name="logout"  />
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+
+                <Button Text="MasterDetailPage" x:Name="btnMaster"  BackgroundColor="Crimson" />
+                <Button Text="TabbedPage" x:Name="btnTabbed" BackgroundColor="DarkTurquoise" />
+                <Button Text="CarouselPage" x:Name="btnCarousel" BackgroundColor="DarkGreen" />
+
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

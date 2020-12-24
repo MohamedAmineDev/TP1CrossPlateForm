@@ -1,0 +1,20 @@
+<ContentPage
+x:Class="name.myPage">
+<StackLayout >
+<Label Text=""  Horizontaloptions="" Verticaloptions="" />
+/** 
+zone de text
+*/
+<Entry />
+</StackLayout>
+</ContentPage>
+
+
+to make som space between the panel and it's elements :
+padding=""
+to make some space between two elements :
+spacing=""
+
+to fill an element in ie's conatainer we use:
+Horizontaloptions="FillAndExpand"
+Verticaloptions="FillAndExpand"

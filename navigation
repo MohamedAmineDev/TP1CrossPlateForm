@@ -1,0 +1,19 @@
+if the Clicked is in the xamlfile:
+to navigate normaly:
+Navigation.PushAsync(new xamlFileName());
+to go back to the last page:
+Navigation.PopAsync();
+to open navigate to a page with fullscreen:
+Navigation.PushModalAsync(new xamlFileName());
+to go back to the last page:
+Navigation.PopModalAsync();
+else:
+ButtonName.Clicked+=(sender,e)=>{
+to navigate normaly:
+ButtonName.Clicked+=(sender,e)=>{Navigation.PushAsync(new xamlFileName());};
+to go back to the last page:
+ButtonName.Clicked+=(sender,e)=>{Navigation.PopAsync();};
+to open navigate to a page with fullscreen:
+ButtonName.Clicked+=(sender,e)=>{Navigation.PushModalAsync(new xamlFileName());};
+to go back to the last page:
+ButtonName.Clicked+=(sender,e)=>{Navigation.PopModalAsync();};

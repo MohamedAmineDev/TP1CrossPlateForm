@@ -1,0 +1,19 @@
+<MasterDetailPage>
+
+<MasterDetailPage.Master>
+<ContentPage Text="">
+
+</ContentPage>
+</MasterDetailPage.Master>
+
+<MasterDetailPage.Detail>
+<ContentPage Text="">
+
+</ContentPage>
+</MasterDetailPage.Detail>
+
+</MasterDetailPage>
+
+
+syntax dans la partie cs:
+public partial class className : MasterDetailPage
